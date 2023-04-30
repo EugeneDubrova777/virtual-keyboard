@@ -9,11 +9,15 @@
 }
 
 .title {
-  color: #8334aa;
+  color: #9f45d7;
   text-align: center;
 }
 
-.text-area {
+.textarea-wrapper {
   display: flex;
   justify-content: center;
+}
+
+.textarea {
+  background: #eee5cf;
 }

@@ -11,15 +11,20 @@ body.append(title);
 // textarea
 
 const textareaWrapper = document.createElement('div');
-textareaWrapper.classList.add('text-area');
+textareaWrapper.classList.add('textarea-wrapper');
 
 const textarea = document.createElement('textarea');
 textarea.id = 'text-area';
-textarea.rows = 10;
+textarea.classList.add('textarea');
+textarea.rows = 7;
 textarea.cols = 70;
 
 body.append(textareaWrapper);
 textareaWrapper.append(textarea);
+
+// keys
+
+
 
 
 
