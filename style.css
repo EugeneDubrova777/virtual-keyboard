@@ -21,3 +21,9 @@
 .textarea {
   background: #eee5cf;
 }
+
+.keysWrapper {
+  width: 900px;
+  height: 300px;
+  border: 1px solid #000;
+}

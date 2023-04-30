@@ -22,7 +22,29 @@ textarea.cols = 70;
 body.append(textareaWrapper);
 textareaWrapper.append(textarea);
 
+// keysWrapper
+
+const keysWrapper = document.createElement('div');
+keysWrapper.classList.add('keysWrapper');
+
+body.append(keysWrapper);
+
+const row1 = document.createElement('div');
+row1.classList.add('row1');
+const row2 = document.createElement('div');
+row2.classList.add('row2');
+const row3 = document.createElement('div');
+row3.classList.add('row3');
+const row4 = document.createElement('div');
+row4.classList.add('row4');
+const row5 = document.createElement('div');
+row5.classList.add('row5');
+
+keysWrapper.append(row1, row2, row3, row4, row5);
+
 // keys
+
+
 
 
 
