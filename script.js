@@ -8,7 +8,20 @@ title.classList.add('title');
 
 body.append(title);
 
-// keys
+// textarea
+
+const textareaWrapper = document.createElement('div');
+textareaWrapper.classList.add('text-area');
+
+const textarea = document.createElement('textarea');
+textarea.id = 'text-area';
+textarea.rows = 10;
+textarea.cols = 70;
+
+body.append(textareaWrapper);
+textareaWrapper.append(textarea);
+
+
 
 
 

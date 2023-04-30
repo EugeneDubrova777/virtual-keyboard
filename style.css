@@ -10,4 +10,10 @@
 
 .title {
   color: #8334aa;
+  text-align: center;
+}
+
+.text-area {
+  display: flex;
+  justify-content: center;
 }
