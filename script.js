@@ -44,6 +44,25 @@ keysWrapper.append(row1, row2, row3, row4, row5);
 
 // keys
 
+// row1
+
+const keyYo = document.createElement('div');
+const key1 = document.createElement('div');
+const key2 = document.createElement('div');
+const key3 = document.createElement('div');
+const key4 = document.createElement('div');
+const key5 = document.createElement('div');
+const key6 = document.createElement('div');
+const key7 = document.createElement('div');
+const key8 = document.createElement('div');
+const key9 = document.createElement('div');
+const key0 = document.createElement('div');
+const keyMin = document.createElement('div');
+const keyPlus = document.createElement('div');
+const Backspace = document.createElement('div');
+
+keyYo.classList.add('key');
+
 
 
 
