@@ -94,6 +94,58 @@ backspace.textContent = 'Backspace';
 
 row1.append(keyYo, key1, key2, key3, key4, key5, key6, key7, key8, key9, key0, keyMin, keyPlus, backspace);
 
+// row2
+
+const keyTab = document.createElement('div');
+const keyQ = document.createElement('div');
+const keyW = document.createElement('div');
+const keyE = document.createElement('div');
+const keyR = document.createElement('div');
+const keyT = document.createElement('div');
+const keyY = document.createElement('div');
+const keyU = document.createElement('div');
+const keyI = document.createElement('div');
+const keyO = document.createElement('div');
+const keyP = document.createElement('div');
+const leftSquareQuote = document.createElement('div');
+const rightSquareQuote = document.createElement('div');
+const backSlash = document.createElement('div');
+const keyDelete = document.createElement('div');
+
+keyTab.classList.add('key');
+keyQ.classList.add('key');
+keyW.classList.add('key');
+keyE.classList.add('key');
+keyR.classList.add('key');
+keyT.classList.add('key');
+keyY.classList.add('key');
+keyU.classList.add('key');
+keyI.classList.add('key');
+keyO.classList.add('key');
+keyP.classList.add('key');
+leftSquareQuote.classList.add('key');
+rightSquareQuote.classList.add('key');
+backSlash.classList.add('key');
+keyDelete.classList.add('key');
+
+keyTab.textContent = 'Tab';
+keyQ.textContent = 'q';
+keyW.textContent = 'w';
+keyE.textContent = 'e';
+keyR.textContent = 'r';
+keyT.textContent = 't';
+keyY.textContent = 'y';
+keyU.textContent = 'u';
+keyI.textContent = 'i';
+keyO.textContent = 'o';
+keyP.textContent = 'p';
+leftSquareQuote.textContent = '[';
+rightSquareQuote.textContent = ']';
+backSlash.textContent = '\\';
+keyDelete.textContent = 'Del';
+
+row2.append(keyTab, keyQ, keyW, keyE, keyR, keyT, keyY, keyU, keyI, keyO, keyP, leftSquareQuote, rightSquareQuote, backSlash, keyDelete);
+
 
 
 
