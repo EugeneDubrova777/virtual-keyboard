@@ -1,0 +1,79 @@
+.first_key {
+  width: 50px;
+  height: 50px;
+  background: red;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: #9f45d7;
+  text-align: center;
+}
+
+.textarea-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.textarea {
+  background: #eee5cf;
+}
+
+.keysWrapper {
+  width: 960px;
+  height: 325px;
+  margin: 20px auto;
+}
+
+.row1,
+.row2,
+.row3,
+.row4,
+.row5 {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.key {
+  width: 60px;
+  height: 60px;
+  background: #e0c764;
+  font-size: 24px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.key:hover {
+  background: #9f45d7;
+  transition: .3s;
+}
+
+.key:active {
+  background: #5645d7;
+}
+
+.backspace {
+  width: 120px;
+}
+
+.key-caps {
+  width: 120px;
+}
+
+.enter {
+  width: 120px;
+}
+
+.left-shift {
+  width: 180px;
+}
+
+.space {
+  width: 360px;
+}
