@@ -61,7 +61,10 @@
   width: 120px;
 }
 
-.left-shift,
-.right-shift {
-  width: 150px;
+.left-shift {
+  width: 180px;
+}
+
+.space {
+  width: 360px;
 }

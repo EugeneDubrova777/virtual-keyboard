@@ -207,6 +207,7 @@ const keyM = document.createElement('div');
 const comma = document.createElement('div');
 const point = document.createElement('div');
 const slash = document.createElement('div');
+const arrUp = document.createElement('div');
 const rightShift = document.createElement('div');
 
 leftShift.classList.add('key');
@@ -221,8 +222,9 @@ keyM.classList.add('key');
 comma.classList.add('key');
 point.classList.add('key');
 slash.classList.add('key');
+arrUp.classList.add('key');
 rightShift.classList.add('key');
-rightShift.classList.add('right-shift');
+
 
 leftShift.textContent = 'Shift';
 keyZ.textContent = 'z';
@@ -235,9 +237,48 @@ keyM.textContent = 'm';
 comma.textContent = ',';
 point.textContent = '.';
 slash.textContent = '/';
+arrUp.textContent = '↑';
 rightShift.textContent = 'Shift';
 
-row4.append(leftShift, keyZ, keyX, keyC, keyV, keyB, keyN, keyM, comma, point, slash, rightShift);
+row4.append(leftShift, keyZ, keyX, keyC, keyV, keyB, keyN, keyM, comma, point, slash, arrUp, rightShift);
+
+// row5
+
+const leftCtrl = document.createElement('div');
+const fn = document.createElement('div');
+const win = document.createElement('div');
+const leftAlt = document.createElement('div');
+const space = document.createElement('div');
+const rightAlt = document.createElement('div');
+const rightCtrl = document.createElement('div');
+const arrLeft = document.createElement('div');
+const arrDown = document.createElement('div');
+const arrRight = document.createElement('div');
+
+leftCtrl.classList.add('key');
+fn.classList.add('key');
+win.classList.add('key');
+leftAlt.classList.add('key');
+space.classList.add('key');
+space.classList.add('space');
+rightAlt.classList.add('key');
+rightCtrl.classList.add('key');
+arrLeft.classList.add('key');
+arrDown.classList.add('key');
+arrRight.classList.add('key');
+
+leftCtrl.textContent = 'Ctrl';
+fn.textContent = 'Fn';
+win.textContent = 'Win';
+leftAlt.textContent = 'Alt';
+space.textContent = '';
+rightAlt.textContent = 'Alt';
+rightCtrl.textContent = 'Ctrl';
+arrLeft.textContent = '←';
+arrDown.textContent = '↓';
+arrRight.textContent = '→';
+
+row5.append(leftCtrl, fn, win, leftAlt, space, rightAlt, rightCtrl, arrLeft, arrDown, arrRight);
 
 
 
