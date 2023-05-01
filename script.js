@@ -146,6 +146,53 @@ keyDelete.textContent = 'Del';
 
 row2.append(keyTab, keyQ, keyW, keyE, keyR, keyT, keyY, keyU, keyI, keyO, keyP, leftSquareQuote, rightSquareQuote, backSlash, keyDelete);
 
+// row3
+
+const keyCaps = document.createElement('div');
+const keyA = document.createElement('div');
+const keyS = document.createElement('div');
+const keyD = document.createElement('div');
+const keyF = document.createElement('div');
+const keyG = document.createElement('div');
+const keyH = document.createElement('div');
+const keyJ = document.createElement('div');
+const keyK = document.createElement('div');
+const keyL = document.createElement('div');
+const semicolon = document.createElement('div');
+const mark = document.createElement('div');
+const enter = document.createElement('div');
+
+keyCaps.classList.add('key');
+keyCaps.classList.add('keyCaps');
+keyA.classList.add('key');
+keyS.classList.add('key');
+keyD.classList.add('key');
+keyF.classList.add('key');
+keyG.classList.add('key');
+keyH.classList.add('key');
+keyJ.classList.add('key');
+keyK.classList.add('key');
+keyL.classList.add('key');
+semicolon.classList.add('key');
+mark.classList.add('key');
+enter.classList.add('key');
+enter.classList.add('enter');
+
+keyCaps.textContent = 'Caps';
+keyA.textContent = 'a';
+keyS.textContent = 's';
+keyD.textContent = 'd';
+keyF.textContent = 'f';
+keyG.textContent = 'g';
+keyH.textContent = 'h';
+keyJ.textContent = 'j';
+keyK.textContent = 'k';
+keyL.textContent = 'l';
+semicolon.textContent = ';';
+mark.textContent = `'`;
+enter.textContent = 'Enter';
+
+row3.append(keyCaps, keyA, keyS, keyD, keyF, keyG, keyH, keyJ, keyK, keyL, semicolon, mark, enter);
 
 
 

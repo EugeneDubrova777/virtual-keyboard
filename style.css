@@ -24,20 +24,19 @@
 
 .keysWrapper {
   width: 960px;
-  height: 320px;
+  height: 325px;
   border: 1px solid #000;
   margin: 20px auto;
 }
 
-.row1 {
-  display: flex;
-  justify-content: space-between;
-}
-
-.row2 {
-  display: flex;
-  justify-content: space-between;
+.row1,
+.row2,
+.row3,
+.row4,
+.row5 {
   margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .key {
@@ -52,5 +51,13 @@
 }
 
 .backspace {
+  width: 120px;
+}
+
+.keyCaps {
+  width: 120px;
+}
+
+.enter {
   width: 120px;
 }
