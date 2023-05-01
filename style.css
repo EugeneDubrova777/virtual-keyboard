@@ -49,6 +49,15 @@
   align-items: center;
 }
 
+.key:hover {
+  background: #9f45d7;
+  transition: .3s;
+}
+
+.key:active {
+  background: #5645d7;
+}
+
 .backspace {
   width: 120px;
 }

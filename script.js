@@ -14,7 +14,7 @@ const textareaWrapper = document.createElement('div');
 textareaWrapper.classList.add('textarea-wrapper');
 
 const textarea = document.createElement('textarea');
-textarea.id = 'text-area';
+textarea.id = 'textarea';
 textarea.classList.add('textarea');
 textarea.rows = 7;
 textarea.cols = 70;
@@ -280,6 +280,90 @@ arrRight.textContent = '→';
 
 row5.append(leftCtrl, fn, win, leftAlt, space, rightAlt, rightCtrl, arrLeft, arrDown, arrRight);
 
+
+
+
+keyYo.dataset.action = '192';
+key1.dataset.action = '49';
+key2.dataset.action = '50';
+key3.dataset.action = '51';
+key4.dataset.action = '52';
+key5.dataset.action = '53';
+key6.dataset.action = '54';
+key7.dataset.action = '55';
+key8.dataset.action = '56';
+key9.dataset.action = '57';
+key0.dataset.action = '48';
+keyMin.dataset.action = '189';
+keyPlus.dataset.action = '187';
+backspace.dataset.action = '8';
+
+keyTab.dataset.action = '9';
+keyQ.dataset.action = '81';
+keyW.dataset.action = '87';
+keyE.dataset.action = '69';
+keyR.dataset.action = '82';
+keyT.dataset.action = '84';
+keyY.dataset.action = '89';
+keyU.dataset.action = '85';
+keyI.dataset.action = '73';
+keyO.dataset.action = '79';
+keyP.dataset.action = '80';
+leftSquareQuote.dataset.action = '219';
+rightSquareQuote.dataset.action = '221';
+backSlash.dataset.action = '220';
+keyDelete.dataset.action = '46';
+
+keyCaps.dataset.action = '20';
+keyA.dataset.action = '65';
+keyS.dataset.action = '83';
+keyD.dataset.action = '68';
+keyF.dataset.action = '70';
+keyG.dataset.action = '71';
+keyH.dataset.action = '72';
+keyJ.dataset.action = '74';
+keyK.dataset.action = '75';
+keyL.dataset.action = '76';
+semicolon.dataset.action = '186';
+mark.dataset.action = '222';
+enter.dataset.action = '13';
+
+leftShift.dataset.action = '16';
+keyZ.dataset.action = '90';
+keyX.dataset.action = '88';
+keyC.dataset.action = '67';
+keyV.dataset.action = '86';
+keyB.dataset.action = '66';
+keyN.dataset.action = '78';
+keyM.dataset.action = '77';
+comma.dataset.action = '188';
+point.dataset.action = '190';
+slash.dataset.action = '191';
+arrUp.dataset.action = '38';
+rightShift.dataset.action = '16';
+
+leftCtrl.dataset.action = '17';
+fn.dataset.action = '';
+win.dataset.action = '';
+leftAlt.dataset.action = '17';
+space.dataset.action = '32';
+rightAlt.dataset.action = '';
+rightCtrl.dataset.action = '17';
+arrLeft.dataset.action = '37';
+arrDown.dataset.action = '40';
+arrRight.dataset.action = '39';
+
+
+
+
+
+function mouseClick(event){
+  const action = event.target.dataset.action;
+  textarea.value += String.fromCharCode(action);
+}
+  
+let keys = document.querySelectorAll('.key');
+[...keys].forEach(item => item.addEventListener('click', mouseClick));
 
 
 
