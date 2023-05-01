@@ -163,7 +163,7 @@ const mark = document.createElement('div');
 const enter = document.createElement('div');
 
 keyCaps.classList.add('key');
-keyCaps.classList.add('keyCaps');
+keyCaps.classList.add('key-caps');
 keyA.classList.add('key');
 keyS.classList.add('key');
 keyD.classList.add('key');
@@ -194,12 +194,50 @@ enter.textContent = 'Enter';
 
 row3.append(keyCaps, keyA, keyS, keyD, keyF, keyG, keyH, keyJ, keyK, keyL, semicolon, mark, enter);
 
+// row4
 
+const leftShift = document.createElement('div');
+const keyZ = document.createElement('div');
+const keyX = document.createElement('div');
+const keyC = document.createElement('div');
+const keyV = document.createElement('div');
+const keyB = document.createElement('div');
+const keyN = document.createElement('div');
+const keyM = document.createElement('div');
+const comma = document.createElement('div');
+const point = document.createElement('div');
+const slash = document.createElement('div');
+const rightShift = document.createElement('div');
 
+leftShift.classList.add('key');
+leftShift.classList.add('left-shift');
+keyZ.classList.add('key');
+keyX.classList.add('key');
+keyC.classList.add('key');
+keyV.classList.add('key');
+keyB.classList.add('key');
+keyN.classList.add('key');
+keyM.classList.add('key');
+comma.classList.add('key');
+point.classList.add('key');
+slash.classList.add('key');
+rightShift.classList.add('key');
+rightShift.classList.add('right-shift');
 
+leftShift.textContent = 'Shift';
+keyZ.textContent = 'z';
+keyX.textContent = 'x';
+keyC.textContent = 'c';
+keyV.textContent = 'v';
+keyB.textContent = 'b';
+keyN.textContent = 'n';
+keyM.textContent = 'm';
+comma.textContent = ',';
+point.textContent = '.';
+slash.textContent = '/';
+rightShift.textContent = 'Shift';
 
-
-
+row4.append(leftShift, keyZ, keyX, keyC, keyV, keyB, keyN, keyM, comma, point, slash, rightShift);
 
 
 

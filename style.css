@@ -25,7 +25,6 @@
 .keysWrapper {
   width: 960px;
   height: 325px;
-  border: 1px solid #000;
   margin: 20px auto;
 }
 
@@ -54,10 +53,15 @@
   width: 120px;
 }
 
-.keyCaps {
+.key-caps {
   width: 120px;
 }
 
 .enter {
   width: 120px;
+}
+
+.left-shift,
+.right-shift {
+  width: 150px;
 }
