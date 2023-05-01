@@ -59,9 +59,40 @@ const key9 = document.createElement('div');
 const key0 = document.createElement('div');
 const keyMin = document.createElement('div');
 const keyPlus = document.createElement('div');
-const Backspace = document.createElement('div');
+const backspace = document.createElement('div');
 
 keyYo.classList.add('key');
+key1.classList.add('key');
+key2.classList.add('key');
+key3.classList.add('key');
+key4.classList.add('key');
+key5.classList.add('key');
+key6.classList.add('key');
+key7.classList.add('key');
+key8.classList.add('key');
+key9.classList.add('key');
+key0.classList.add('key');
+keyMin.classList.add('key');
+keyPlus.classList.add('key');
+backspace.classList.add('key');
+backspace.classList.add('backspace');
+
+keyYo.textContent = '`';
+key1.textContent = '1';
+key2.textContent = '2';
+key3.textContent = '3';
+key4.textContent = '4';
+key5.textContent = '5';
+key6.textContent = '6';
+key7.textContent = '7';
+key8.textContent = '8';
+key9.textContent = '9';
+key0.textContent = '0';
+keyMin.textContent = '-';
+keyPlus.textContent = '=';
+backspace.textContent = 'Backspace';
+
+row1.append(keyYo, key1, key2, key3, key4, key5, key6, key7, key8, key9, key0, keyMin, keyPlus, backspace);
 
 
 

@@ -23,7 +23,27 @@
 }
 
 .keysWrapper {
-  width: 900px;
-  height: 300px;
+  width: 960px;
+  height: 320px;
   border: 1px solid #000;
+  margin: 20px auto;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.key {
+  width: 60px;
+  height: 60px;
+  background: #e0c764;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backspace {
+  width: 120px;
 }
